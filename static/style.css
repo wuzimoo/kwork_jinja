@@ -1,0 +1,266 @@
+body, html {
+    margin: 0;
+    background: #F5F5F5;
+}
+
+.header {
+    width: 880px;
+    height: 385px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin-left: 243px;
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column; 
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Отображаем элементы в столбец */
+    align-items: flex-start; /* Выравниваем элементы по левому краю */
+    margin-left: 70px;
+}
+
+.smalltext1 {
+    color: #BBB;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 10px; /* Добавляем небольшой отступ снизу */
+}
+
+.smalltext2-container {
+    display: flex;
+    align-items: center;
+    margin-left: 638px ;
+    margin-top: -30px;
+}
+
+.smalltext2 {
+    color: #02C585;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.svg1 {
+    width: 6px;
+    height: 6px;
+    margin-right: 5px;
+    fill: #02C585;
+}
+
+.namevac {
+    color: #000;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 70px; 
+}
+
+.discr{
+    color: #7C7C7C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.svg2{
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+.text3{
+    color: #539DFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -25px;
+    margin-left: 105px;
+}
+
+.right-content{
+    margin-top: -34px;
+    margin-left: 158px;
+
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column; /* Отображаем элементы в столбец */
+    align-items: flex-start;
+
+}
+.svg3{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.smalltext3{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -15px;
+    margin-left: 110px;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column; /* Отображаем элементы в столбец */
+    align-items: flex-start;
+}
+
+.svg4{
+    margin-left: 70px;
+    margin-top: 5px;}
+
+.smalltext4{
+    color: #8F8F8F;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -22px;
+    margin-left: 110px;
+
+}
+
+.button-contact{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 212px;
+    height: 33px;
+    flex-shrink: 0;
+    background-color: #007BFF; /* Цвет фона кнопки */
+    border: none;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+.button-send{
+    width: 212px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #066CFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid #066CFF;
+    margin-left: 30px;
+}
+
+.bottom {
+    width: 880px;
+    height: 865px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin-left: 243px;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column; }
+
+
+.title-main{color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+    margin-left: 70px;
+}
+.requirements{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 45px;
+    margin-left: 70px;}
+
+.sv1{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.tet1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 100px;
+    margin-top: -20px;
+
+    
+
+}
+
+
+
+.button-contact1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 212px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #007BFF; /* Цвет фона кнопки */
+    border: none;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+.button-send1{
+    width: 212px;
+    height: 55px;
+    flex-shrink: 0;
+    color: #066CFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid #066CFF;
+    margin-left: 30px;
+}
